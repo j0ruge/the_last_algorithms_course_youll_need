@@ -1,25 +1,15 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.doSomeStuff = void 0;
-console.log('Try npm run lint/fix!');
-const longString = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut aliquet diam.';
-const trailing = 'Semicolon';
-const why = { am: 'I tabbed?' };
-const iWish = "I didn't have a trailing space...";
-const sicilian = true;
-const vizzini = sicilian ? !sicilian : sicilian;
-const re = /foo {3}bar/;
-function doSomeStuff(withThis, andThat, andThose) {
-    //function on one line
-    if (!andThose.length) {
-        return false;
+function sum_char_codes(n) {
+    let sum = 0;
+    for (let i = 0; i < n.length; ++i) {
+        sum += n.charCodeAt(i);
     }
-    console.log(withThis);
-    console.log(andThat);
-    console.dir(andThose);
-    console.log(longString, trailing, why, iWish, vizzini, re);
-    return;
+    for (let i = 0; i < n.length; ++i) {
+        sum += n.charCodeAt(i);
+    }
+    return sum;
 }
-exports.doSomeStuff = doSomeStuff;
-// TODO: more examples
+console.log(sum_char_codes('Hello World'));
+console.log(sum_char_codes('GabirU Nervoso! ಠ_ಠ'));
+console.log(sum_char_codes('GabirU Flutuante! ಠ_ಠ'));
 //# sourceMappingURL=index.js.map

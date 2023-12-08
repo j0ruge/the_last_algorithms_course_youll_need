@@ -1,1 +1,1 @@
-export declare function doSomeStuff(withThis: string, andThat: string, andThose: string[]): false | undefined;
+declare function sum_char_codes(n: string): number;
