@@ -8,4 +8,4 @@ export default function linear_search(
         }
     }
     return false;
-}
+};
