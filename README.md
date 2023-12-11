@@ -1,5 +1,7 @@
 ## Big O
 
+https://frontendmasters.com/courses/algorithms/
+
 
 ### Important concepts
 
@@ -18,12 +20,9 @@ ArrayBuffer no JavaScript é um objeto genérico usado para armazenar dados de f
 É um espaço contínou na memória, onde cada elemento é armazenado em uma posição de memória contígua. O ArrayBuffer é um objeto genérico que pode ser usado para criar um buffer de bytes. O ArrayBuffer não pode ser manipulado diretamente, mas pode ser passado para um objeto TypedArray ou DataView que permite acesso e manipulação do ArrayBuffer.
 
 
-
 ## SEARCH
 
 https://theprimeagen.github.io/fem-algos/lessons/our-first-algorithms/search
-
-
 
 
 ```bash
@@ -33,7 +32,6 @@ yarn install
 yarn generate
 
 ```
-
 
 ### Linear Search
 
