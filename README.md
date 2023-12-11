@@ -56,6 +56,11 @@ export default function linear_search(
 >| :--- |
 >| If the input halves at each step, its likely $O(LogN)$ or $O(NlogN)$ |
 
+### The two crystal ball problem
+
+> Given two crystal balls that will break if dropped from high enouth distance, determine the exact spot in which it will break in the most optimized way.
+
+
  
 ## Livros
 
