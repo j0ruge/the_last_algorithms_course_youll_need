@@ -59,7 +59,10 @@ export default function linear_search(
 ### The two crystal ball problem
 
 > Given two crystal balls that will break if dropped from high enouth distance, determine the exact spot in which it will break in the most optimized way.
+CONT
 
+
+CONTINUAR -> https://frontendmasters.com/courses/algorithms/implementing-two-crystal-balls/
 
  
 ## Livros
